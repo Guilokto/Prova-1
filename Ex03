@@ -1,0 +1,46 @@
+3. No estado de São Paulo, o IPVA (Imposto sobre a Propriedade de Veículos Automotores) possui valor da alíquota de imposto de 4%.
+Dependendo do ano de fabricação, pode ocorrer isenção de IPVA, ou seja, não é pago nada, referente a este imposto.
+O estado de São Paulo concede isenção a partir de 20 anos de fabricação.
+Atendendo a 10 proprietários de automóveis, a partir dos anos de fabricação e dos valores dos carros, crie um programa utilizando a linguagem Python que,
+calcule e apresente:
+a) Quantidade de carros isentos.
+b) Valor do IPVA de cada carro.
+c) Média de valores dos carros.
+d) Total dos IPVAs pagos.
+Curiosidade: O valor do carro geralmente é avaliado pela tabela FIPE (Fundação Instituto de Pesquisas Econômicas).
+
+
+c = 0
+pessoas = 0
+media = 0 
+valor = 0
+n1 = 0
+ipva = 0
+ipvatotal = 0
+
+for pessoas in range (10) : 
+
+    ano = int(input('Informe o ano do seu veiculo: '))
+    valor = float(input('Informe o Valor do seu veiculo: '))
+
+    n1 = n1 + 1
+    media = valor + media
+    
+    if ano <= 2002 :
+        print('Veiculo isento')
+        print()
+        c = c + 1
+
+    elif ano > 2002 :
+        ipva = valor * 0.04 
+        ipvatotal = ipva + ipvatotal
+        print(f'O valor do ipva do seu veiculo é de R${ipva:.2f}')
+        print()
+
+print()
+print(f'A media de valores dos veiculos é de R${media/n1:.2f}')
+print()
+print(f'A quantidade de veiculos isentos é de',c)
+print()
+print(f'O valor total dos IPVAs pagos é de R$:',ipvatotal)
+pessoas = pessoas + 1
