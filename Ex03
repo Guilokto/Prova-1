@@ -1,4 +1,4 @@
-3. No estado de São Paulo, o IPVA (Imposto sobre a Propriedade de Veículos Automotores) possui valor da alíquota de imposto de 4%.
+###3. No estado de São Paulo, o IPVA (Imposto sobre a Propriedade de Veículos Automotores) possui valor da alíquota de imposto de 4%.
 Dependendo do ano de fabricação, pode ocorrer isenção de IPVA, ou seja, não é pago nada, referente a este imposto.
 O estado de São Paulo concede isenção a partir de 20 anos de fabricação.
 Atendendo a 10 proprietários de automóveis, a partir dos anos de fabricação e dos valores dos carros, crie um programa utilizando a linguagem Python que,
