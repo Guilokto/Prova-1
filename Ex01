@@ -1,4 +1,4 @@
-1.[1,50 pontos] Você está em uma festa de aniversário e está tendo confusão para distribuir de modo justo a quantidade de brigadeiros entre os participantes.
+###1.Você está em uma festa de aniversário e está tendo confusão para distribuir de modo justo a quantidade de brigadeiros entre os participantes.
 Todos, por alguma coincidência, entendem de Python, então você planeja o seguinte exemplo de código:
 brigadeiros = 150
 pessoas = 16
